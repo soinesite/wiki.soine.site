@@ -18,6 +18,11 @@ SSH を用いてサーバーに接続して、 Web ページの公開やパス�
             ```
             sudo pacman -S cloudflared
             ```
+        
+        * FreeBSD (pkg)
+            ```
+            pkg install cloudflared
+            ```
 
 2. 以下の内容を `~/.ssh/config` に追記します。
     ```
