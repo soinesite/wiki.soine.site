@@ -18,7 +18,7 @@ soine.site のメール アカウントを利用する最短の方法は、[Web 
 
 ### SMTP サーバー
 * アドレス: `v4raw-tottori.soine.site`
-* ポート: `143` (STARTTLS)
+* ポート: `587` (STARTTLS)
 
 ### IMAP サーバー
 * アドレス: `v4raw-tottori.soine.site`
