@@ -9,6 +9,7 @@ yude.jp / soine.site が提供する閉域網
 * サーバー アドレス: `gate.soine.site`
 #### SoftEther VPN
 * ポート: `443`
+* 仮想 HUB: `SOINET`
 #### L2TP over IPsec
 * ポート: 標準 (`500/udp`, `4500/udp`, `esp`)
 * 事前共有鍵: `soinet`
