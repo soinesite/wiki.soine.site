@@ -28,3 +28,5 @@ yude.jp / soine.site が提供する閉域網
 |  `pipe.soinet`  |  http (`80/tcp`)  |  Piping Server  |
 |  `ns.soinet`  |  dns (`53/udp`)  |  DNS  |
 |  `ddns.soinet`  |  dns (`53/udp`), http (`80/tcp`)  |  ダイナミック DNS  |
+|  `proxy.soinet`  |  http (`80/tcp`)  | retro-proxy, http プロキシ |
+|  `sdr.soinet`  |  http (`80/tcp`)  |  OpenWebRX (@ Hiroshima, Japan) / Web SDR  |
