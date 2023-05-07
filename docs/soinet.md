@@ -32,3 +32,4 @@ yude.jp / soine.site が提供する閉域網
 |  `sdr.soinet`  |  rtl_tcp (`1234/tcp`)  |  rtl_tcp (SDR)  |
 |  `smb.soinet`  |  samba (`137/udp`, `138/udp`, `139/tcp`, `445/tcp`)  |  Samba  |
 |  `ftp.soinet`  |  ftp (`21/tcp`)  |  FTP<br>ユーザー名: `user`<br>パスワード: `user`  |
+| `speed.soinet` | iperf3 (`5201/tcp`) | iperf3 Speedtest |
