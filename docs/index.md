@@ -3,7 +3,7 @@
 soine.site の Wiki ページへようこそ。提供中のサービスについてなどの情報を公開しています。  
 
 * このサービス群は、現在 [yude.jp](https://www.yude.jp) Discord サーバーのメンバーに限定して公開しています。
-* 利用希望者は、[こちら](https://docs.google.com/forms/d/1UYjKSEZKASGZTE6ytacMvtidUDSzx_n5zgjfofJSWTw) から申し込んでください。
+* 利用希望者は、[こちら](https://docs.google.com/forms/d/e/1FAIpQLSeADDtn5rVhZbMKwBsd6a_xJLVNPkPSrJflVeuWMKIcygU6iw/viewform?usp=pp_url) から申し込んでください。
 
 ## ルール
 
