@@ -1,8 +1,6 @@
 # SSH
 
-SSH を用いてサーバーに接続して、 Web ページの公開やパスワードの変更などを行えます。
-
-## 接続方法
+Telnet を用いてサーバーに接続して、 Web ページの公開やパスワードの変更などを行えます。(非推奨)
 
 ### `cloudflared` を使用して接続する
 
@@ -27,18 +25,15 @@ SSH を用いてサーバーに接続して、 Web ページの公開やパス�
             pkg install cloudflared
             ```
 
-2. 以下の内容を `~/.ssh/config` に追記します。
+2. パケットをプロキシするために、`cloudflared` を使用します。
     ```
-    Host soine.site
-        User ユーザー名
-        HostName ssh.soine.site
-        ProxyCommand cloudflared access ssh --hostname %h
+    cloudflared access tcp --url localhost:2323 --hostname telnet.soine.site
     ```
 
 3. 以下のコマンドを実行して、サーバーに接続します。
 
     ```shell
-    ssh soine.site
+    telnet -l ユーザー名 127.1 2323
     ```
 
     * 初回ログイン後は、`passwd` コマンドを使用して初期パスワードと異なるパスワードに変更してください。
@@ -49,17 +44,10 @@ SSH を用いてサーバーに接続して、 Web ページの公開やパス�
 
     [Download ・ Tailscale](https://tailscale.com/download) を参照してください。
 
-2. 以下の内容を `~/.ssh/config` に追記します。
-    ```
-    Host soine.site
-        User ユーザー名
-        HostName soine.soine.site.beta.tailscale.net
-    ```
-
-3. 以下のコマンドを実行して、サーバーに接続します。
+2. 以下のコマンドを実行して、サーバーに接続します。
 
     ```shell
-    ssh soine.site
+    telnet -l ユーザー名 soine.soine.site.beta.tailscale.net
     ```
 
     * 初回ログイン後は、`passwd` コマンドを使用して初期パスワードと異なるパスワードに変更してください。
