@@ -53,7 +53,7 @@ SSH を用いてサーバーに接続して、 Web ページの公開やパス�
     ```
     Host soine.site
         User ユーザー名
-        HostName soine.soine.site.beta.tailscale.net
+        HostName soine.tail1a4ae.ts.net
     ```
 
 3. 以下のコマンドを実行して、サーバーに接続します。
