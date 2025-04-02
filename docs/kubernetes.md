@@ -17,13 +17,13 @@
 
 ### Ingress の作成
 
-あなたの namespace 内にある `foo` という Service を、`bar.soine.site` で公開したいとして、以下に例を示します。
+あなたの namespace (`piyo` とします) 内にある `foo` という Service を、`bar.soine.site` で公開したいとして、以下に例を示します。
 なお、それぞれの Service は、http の場合 80/tcp ポートを、https の場合 443/tcp ポートを expose しているものとします。
 
 * http サービスの場合
 
     ```
-    kubectl -n bar \
+    kubectl -n piyo \
     create ingress bar.soine.site \
     --rule="bar.soine.site/*=foo:80"\
     --class cloudflare-tunnel
@@ -32,7 +32,7 @@
 * https サービスの場合
 
     ```
-    kubectl -n bar \
+    kubectl -n piyo \
     create ingress bar.soine.site \
     --rule="bar.soine.site/*=foo:443"\
     --class cloudflare-tunnel \
